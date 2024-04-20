@@ -281,3 +281,15 @@ for letter in text:
         letter_counts[letter] = letter_counts[letter] + 1
 
 print(letter_counts)
+
+class Dog:
+
+    def __init__(name, breed, colour):
+        self.name = name
+        self.breed = breed
+        self.colour = colour
+
+    def bark(self):
+        print(f'My name is {self.name}... I mean...Woof!')
+        
+koopa = Dog('Koopa', 'Shiba', 'Brown')
